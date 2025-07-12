@@ -1,4 +1,5 @@
 import { Global, css } from '@emotion/react'
+import 'pretendard/dist/web/static/pretendard.css'
 
 const reset = css`
   /* Eric Meyer's Reset CSS v2.0 (https://meyerweb.com/eric/tools/css/reset/) */
