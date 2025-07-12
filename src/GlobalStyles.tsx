@@ -129,4 +129,6 @@ const reset = css`
   }
 `
 
-export const GlobalStyles = () => <Global styles={reset} />
+export function GlobalStyles() {
+  return <Global styles={reset} />
+}
